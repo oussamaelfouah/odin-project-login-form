@@ -1,0 +1,95 @@
+div{
+  position: relative;
+}
+.image{
+  width: 700px;
+  height: 1080px;
+}
+.image , .odin{
+  position: absolute;
+}
+.odin{
+  width: 200px;
+top: 410px;
+left: 210px;
+}
+.text{
+  text-align: end;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  padding-top:100px ;
+  padding-left: 500px;
+}
+.text2{
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  padding-left: 300px;
+  padding-top: 40px;
+  margin-left: 280px;
+}
+label{ 
+  width: 100px;
+  display: inline-block
+}
+.form{
+  display: flex;
+  justify-content: center;
+  
+}
+input , label {
+  margin-top: 20px  ;
+}
+.form2{
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin-left: 800px;
+  margin-top: 100px;
+ }
+ .container {
+  width: 50%;
+  border-bottom: 1px black solid;
+  height: 200px;
+  
+ }
+ .button1{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 1000px;
+  top:600px;
+ }
+ .button1{
+  background-color: rgb(131, 139, 55);
+  border: 0;
+  width: 130px;
+  border-radius: 10px;
+  padding: 9px;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+ }
+ .button2{
+  background-color: rgb(47, 179, 255);
+  border: 0;
+  width: 130px;
+  border-radius: 10px;
+  padding: 9px;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+ }
+ .button2{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 1400px;
+  top:600px;
+ }
